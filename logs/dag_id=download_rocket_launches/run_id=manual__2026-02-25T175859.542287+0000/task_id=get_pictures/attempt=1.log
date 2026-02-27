@@ -1,0 +1,22 @@
+{"timestamp":"2026-02-25T17:59:07.906482Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-25T17:59:07.910623Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/download_rocket_launcher.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-25T17:59:07.948736Z","level":"warning","event":"The `airflow.operators.bash.BashOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.bash.BashOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/download_rocket_launcher.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2026-02-25T17:59:07.949066Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/download_rocket_launcher.py","lineno":8,"logger":"py.warnings"}
+{"timestamp":"2026-02-25T17:59:07.983367Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-25T17:59:07.984799Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-25T17:59:07.986034Z","level":"info","event":"Current task name:get_pictures","logger":"task.stdout"}
+{"timestamp":"2026-02-25T17:59:07.987279Z","level":"info","event":"Dag name:download_rocket_launches","logger":"task.stdout"}
+{"timestamp":"2026-02-25T17:59:10.571153Z","level":"info","event":"Downloaded https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png","logger":"task.stdout"}
+{"timestamp":"2026-02-25T17:59:13.432926Z","level":"info","event":"Downloaded https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png","logger":"task.stdout"}
+{"timestamp":"2026-02-25T17:59:15.770636Z","level":"info","event":"Downloaded https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg","logger":"task.stdout"}
+{"timestamp":"2026-02-25T17:59:17.965339Z","level":"info","event":"Downloaded https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png","logger":"task.stdout"}
+{"timestamp":"2026-02-25T17:59:20.413957Z","level":"info","event":"Downloaded https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_20251206093324.jpeg","logger":"task.stdout"}
+{"timestamp":"2026-02-25T17:59:22.440411Z","level":"info","event":"Downloaded https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_alpha_l_image_20240605174156.jpeg","logger":"task.stdout"}
+{"timestamp":"2026-02-25T17:59:24.585386Z","level":"info","event":"Downloaded https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png","logger":"task.stdout"}
+{"timestamp":"2026-02-25T17:59:26.771244Z","level":"info","event":"Downloaded https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png","logger":"task.stdout"}
+{"timestamp":"2026-02-25T17:59:29.308986Z","level":"info","event":"Downloaded https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png","logger":"task.stdout"}
+{"timestamp":"2026-02-25T17:59:32.067623Z","level":"info","event":"Downloaded https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png","logger":"task.stdout"}
+{"timestamp":"2026-02-25T17:59:32.068658Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-25T17:59:32.104505Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-25T17:59:32.105407Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-25T17:59:32.106333Z","level":"info","event":"Task operator:<Task(PythonOperator): get_pictures>","logger":"task.stdout"}

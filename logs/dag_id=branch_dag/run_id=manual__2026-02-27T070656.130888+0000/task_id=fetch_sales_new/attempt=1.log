@@ -1,0 +1,15 @@
+{"timestamp":"2026-02-27T07:07:04.993403Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-27T07:07:04.997364Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/branching_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-27T07:07:05.041627Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/branching_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2026-02-27T07:07:05.041892Z","level":"warning","event":"The `airflow.operators.python.BranchPythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.BranchPythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/branching_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2026-02-27T07:07:05.042104Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/branching_dag.py","lineno":13,"logger":"py.warnings"}
+{"timestamp":"2026-02-27T07:07:05.042367Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/branching_dag.py","lineno":14,"logger":"py.warnings"}
+{"timestamp":"2026-02-27T07:07:05.074530Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-27T07:07:05.075749Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-27T07:07:05.076805Z","level":"info","event":"Current task name:fetch_sales_new","logger":"task.stdout"}
+{"timestamp":"2026-02-27T07:07:05.077984Z","level":"info","event":"Dag name:branch_dag","logger":"task.stdout"}
+{"timestamp":"2026-02-27T07:07:05.079817Z","level":"info","event":"Fetching new sales data","logger":"task.stdout"}
+{"timestamp":"2026-02-27T07:07:05.077849Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-27T07:07:05.109166Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-27T07:07:05.109898Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-27T07:07:05.110684Z","level":"info","event":"Task operator:<Task(PythonOperator): fetch_sales_new>","logger":"task.stdout"}
